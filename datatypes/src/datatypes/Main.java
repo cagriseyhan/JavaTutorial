@@ -1,0 +1,16 @@
+package datatypes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int tamSayi = 1321111111;
+		byte sayi = -127;
+		double sayi1 = 12.5;
+		short sayi2 = 32692;
+		char karakter = 'A';
+		String ulke = "Fas";
+		boolean dogruMu = true;
+	}
+
+}

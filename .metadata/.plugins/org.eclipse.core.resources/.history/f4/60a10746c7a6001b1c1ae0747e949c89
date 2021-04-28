@@ -1,0 +1,34 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String internetSubeKodu = "İnternet Şubesi";
+		double dolarDun = 8.15;
+		double dolarBugun = 8.18;
+		int vade = 36;
+		boolean dustuMu = false;
+		System.out.println(internetSubeKodu);
+		
+		if(dolarDun<dolarBugun)
+		{
+			System.out.println("Dolar düştü resmi");
+		}
+		else if( dolarDun>dolarBugun)
+		{
+			System.out.println("Dolar yükseldi resmi");
+		}
+		else
+		{
+			System.out.println("Dolar eşittir resmi");
+		}
+		
+		String kredi1 = "Hızlı Kredi";
+		String kredi2 = "Mutlu emekli kredisi";
+		String kredi3 = "Konut kredisi";
+		String kredi4 = "Çiftçi kredisi";
+		String kredi5 = "Msb kredisi";
+	}
+
+}
