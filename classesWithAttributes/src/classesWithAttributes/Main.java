@@ -1,5 +1,7 @@
 package classesWithAttributes;
 
+import classesWithAttributes.Product;
+
 public class Main {
 
 	public static void main(String[] args) {

@@ -7,11 +7,11 @@ public class Main {
 		char harf = 'E';
 
 		switch (harf) {
-		case 'E', 'İ', 'Ö', 'Ü':
+		case 'E', 'Ü', 'İ', 'Ö':
 			System.out.println(harf + " ince seslidir.");
 			break;
 		default:
-			System.out.println(harf + " kalın seslidir.");
+			System.out.println(harf + " kalÄ±n seslidir.");
 		}
 	}
 
