@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Product product = new Product();
+		Product product2 = new Product(2,"Phone","Iphone",500,5);
 		
 		product.setName("Laptop");
 		product.setId(1);
