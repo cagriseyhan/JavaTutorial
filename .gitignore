@@ -16,10 +16,6 @@ bin/
 ## Eclipse
 ##########################
 .metadata
-.classpath
-.project
-.settings/
-bin/
 tmp/
 *.tmp
 *.bak
