@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args)
 	{
 		BaseKrediManager[] baseKrediManagers = new BaseKrediManager[] {new OgretmenKrediManager(),
-											new TarimKrediManager(), new OgrenciKrediManager()};
+											 new TarimKrediManager(), new OgrenciKrediManager()};
 		
 		OgretmenKrediManager ogretmenKrediManager = new OgretmenKrediManager();
 		System.out.println(ogretmenKrediManager.hesapla(500));
